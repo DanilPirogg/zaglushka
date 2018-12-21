@@ -7,9 +7,13 @@
 
 
 @media only screen and (max-width:768px) {
-/*.container{*/
-    /*flex-direction: row;*/
-/*}*/
+.container{
+    flex-direction: column;
+}
+    .container{
+        align-content:space-around;
+    }
+
 }
 
 

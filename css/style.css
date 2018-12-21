@@ -13,7 +13,31 @@ div.container{
     align-items:center;
     flex-wrap:wrap;
     align-content:space-between;
+
+}
+div.logo{
+    order: 1;
 }
 div.text{
 color: white;
+    font-size:15px;
+    order: 2;
+}
+p{
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon i{
+    color: white;
+font-size: 30px;
+    border: solid white 3px;
+    padding:  14px 22px;
+    border-radius: 38px;
+
+}
+
+div.icon{
+    order: 3;
+    height:234px;
+    align-self: flex-end;
 }
